@@ -1,0 +1,17 @@
+<!-- template affichant la liste de symptome trouvés -->
+<!doctype html>
+<html lang="fr">
+	<body>	
+			<div>
+				<form method="post" action="" >	
+				<fieldset>
+					<legend>Mots clés sélectionnés :{foreach from=$mot_cle_affiche item=mot} {$mot},{/foreach}</legend>
+					{foreach from=$list_symptome item=symptome}
+						<label><input type="checkbox" name={$symptome.id} value="{$symptome.desc}">{$symptome.desc}</label>
+					{/foreach}
+				</fieldset>
+				<input type="submit" name="valider" class="valider">
+				</form>
+			</div>
+	</body>
+</html>

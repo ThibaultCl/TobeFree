@@ -1,0 +1,15 @@
+<!-- template pour l'affichage des resultats de la recherche de pathologie par mots clé -->
+<!doctype html>
+<html lang="fr">
+	<body>	
+			<div>
+				<h3>Résultat de la recherche</h3>
+				<ul>
+					{foreach from=$list_patho item=patho}
+					<li><a href="./pathologie/{$patho.under}" target="blank">{$patho.desc}</a></li>
+					{/foreach}
+					
+				</ul>
+			</div>
+	</body>
+</html>

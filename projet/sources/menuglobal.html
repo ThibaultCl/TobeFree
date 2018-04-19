@@ -1,0 +1,29 @@
+<!-- template de la page principale et du menu -->
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="2beefree" />
+		<title>Acupuncture</title>
+		<link href="sources/CSS/styleMain.css" rel="stylesheet" type="text/css"/>
+		<link href="symptomeStyle.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="sources/JS/scriptMain.js"></script>
+	</head>
+	<body>
+		<div class="head">
+			<a href="./accueil">
+				<img src="sources/images/logo.jpg" alt="Acupuncture logo"><h1>Acupuncture</h1>
+			</a>
+		</div>
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="./inscription">Inscription</a></li>
+					<li><a href="./critere">Recherche de pathologie par critère</a></li>
+					<li><a href="./symptome">Recherche de pathologie par symptome</a></li>
+					<li><a href="./information">Informations</a></li>
+					<li><a href="./connexion" >{$login}</a></li>
+				</ul>
+			</nav>
+			{if isset($pseudo)}<p>Bonjour {$pseudo} !</p>{/if}
+		</div>

@@ -1,0 +1,161 @@
+/*fichier CSS utilisé pour tout le site web*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+	padding:0;
+	margin:0 2% 0 2%;
+}
+
+img{
+	float: left;
+}
+
+h1{
+	text-align: center;
+	padding-top: 100px;
+	margin-top: 0px;
+	text-decoration: none;
+}
+
+div{
+	clear: both;
+}
+
+p{
+	margin: 10px 0 10px 0;
+}
+
+a:visited{
+	color: blue; 
+}
+
+fieldset{
+	margin-bottom: 20px;
+	margin-top: 5px;
+	display: block;
+}
+
+label{
+	display: block;
+	margin-top:5px;
+	padding: 5px;
+	cursor: pointer; 
+}
+
+label:hover{
+	background-color: #dadada; 
+}
+
+li{
+	margin: 15px;
+}
+
+.head a{
+	text-decoration: none;
+	color: black;
+}
+
+.log{
+	cursor: auto;
+}
+
+.log:hover{
+	background-color: #fff;
+}
+
+.search{
+	display: inline;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+.valider{
+	color: #fff;
+	background-color:#2970ff;
+	padding: 10px 20px 10px 20px;
+	margin: 15px; 
+	border: solid 1px;
+	cursor: pointer;
+}
+
+.valider:hover{
+	background-color: #294aff;
+}
+
+.menu{
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	background-color: #2970ff;
+    overflow: hidden;
+}
+
+.menu ul{
+		padding: 0;
+		margin: 0;
+	}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    list-style: none;
+	padding: 15px;
+	margin: 0;
+}
+
+.menu li:hover{
+	background-color: #294aff;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	padding: 15px;
+}
+
+.menu nav{
+	display: inline-block;
+}
+
+.menu p{
+	display: inline-block;
+	text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+    list-style: none;
+	padding: 15px;
+	margin: 0;
+	float: right;
+}
+
+.corps{
+	margin: 0 3% 0 3%;
+}
+
+.deroule{
+	cursor: pointer;
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.deroule:hover{
+	background-color: #dadada
+}
+
+.log input {
+	display: block;
+}
+
+#
+
+@media (max-width: 600px) {
+	.menu li{
+		display: block;
+	}
+}
